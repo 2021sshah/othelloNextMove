@@ -1,0 +1,26 @@
+Board Scheme:
+? ? ? ? ? ? ? ? ? ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? . . . . . . . . ?
+? ? ? ? ? ? ? ? ? ?
+
+Tokens: @ and o
+Indicies from 0 to 99
+Special variable you have to set
+
+Structure:
+
+class
+    mySpecialVar = ____
+    loop
+        makeDecision
+        setVar
+
+    if __name___ = "__main__" # if running from command line, do that
+    # Challenge to take into account globals
